@@ -5,5 +5,9 @@
         android:title="Hitung Luas"/>
     <item android:id="@+id/menu2"
         android:title="Hitung Keliling"/>
+    <item android:id="@+id/menu3"
+        android:title="Hitung Luas"/>
+    <item android:id="@+id/menu4"
+        android:title="Hitung Keliling"/>
 
 </menu>
