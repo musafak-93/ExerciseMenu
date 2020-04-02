@@ -22,6 +22,7 @@ public class Menu_Hitung extends AppCompatActivity implements
         TextView lingkaran=findViewById(R.id.TV_lingkaran);
         TextView panjang=findViewById(R.id.TV_persegipanjang);
         TextView segitiga=findViewById(R.id.TV_segitiga);
+        TextView trapesium=findViewById(R.id.TV_trapesium);
 
         persegi.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -66,6 +67,18 @@ public class Menu_Hitung extends AppCompatActivity implements
                 ppMenu.show();
             }
         });
+
+        trapesium.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                PopupMenu ppMenu = new PopupMenu(Menu_Hitung.this, v);
+                ppMenu.setOnMenuItemClickListener(Menu_Hitung.this);
+
+                ppMenu.inflate(R.menu.menuhitung);
+                ppMenu.show();
+            }
+        });
+
     }
     public boolean onMenuItemClick (MenuItem menuItem) {
         switch (menuItem.getItemId()){
