@@ -2,6 +2,7 @@ package com.example.exercisemenu;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.MenuItem;
 import android.view.View;
@@ -83,12 +84,12 @@ public class Menu_Hitung extends AppCompatActivity implements
     public boolean onMenuItemClick (MenuItem menuItem) {
         switch (menuItem.getItemId()){
             case R.id.menu1:
-                Toast.makeText(getApplicationContext(), "luas",
-                        Toast.LENGTH_SHORT).show();
+                Intent a = new Intent(Menu_Hitung.this, luas_persegi.class);
+                startActivity(a);
                 break;
             case R.id.menu2:
-                Toast.makeText(getApplicationContext(),"keliling"
-                        ,Toast.LENGTH_SHORT).show();
+                Intent b = new Intent(Menu_Hitung.this, keliling_persegi.class);
+                startActivity(b);
                 break;
         }
         return true;
