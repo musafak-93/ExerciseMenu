@@ -6,4 +6,10 @@
     <string name="masukkan_username">Masukkan Username</string>
     <string name="masukkan_password">Masukkan Password</string>
     <string name="button">SIGN-IN</string>
+    <string name="menu_hitung">Menu Hitung Bangun Datar</string>
+    <string name="persegi">Menghitung Persegi</string>
+    <string name="lingkaran">Menghitung Lingkaran</string>
+    <string name="persegi_panjang">Persegi Panjang</string>
+    <string name="segitiga">Menghitung Segitiga</string>
+    <string name="Trapesium">Menghitung Trapesium</string>
 </resources>
