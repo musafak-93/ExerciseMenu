@@ -31,4 +31,17 @@ public class Menu_Hitung extends AppCompatActivity implements
             }
         });
     }
+    public boolean onMenuItemClick (MenuItem menuItem) {
+        switch (menuItem.getItemId()){
+            case R.id.menu1:
+                Toast.makeText(getApplicationContext(), "luas",
+                        Toast.LENGTH_SHORT).show();
+                break;
+            case R.id.menu2:
+                Toast.makeText(getApplicationContext(),"keliling"
+                        ,Toast.LENGTH_SHORT).show();
+                break;
+        }
+        return true;
+    }
 }
