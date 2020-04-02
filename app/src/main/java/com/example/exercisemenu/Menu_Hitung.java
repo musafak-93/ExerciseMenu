@@ -21,6 +21,7 @@ public class Menu_Hitung extends AppCompatActivity implements
         TextView persegi=findViewById(R.id.TV_persegi);
         TextView lingkaran=findViewById(R.id.TV_lingkaran);
         TextView panjang=findViewById(R.id.TV_persegipanjang);
+        TextView segitiga=findViewById(R.id.TV_segitiga);
 
         persegi.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -45,6 +46,17 @@ public class Menu_Hitung extends AppCompatActivity implements
         });
 
         panjang.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                PopupMenu ppMenu = new PopupMenu(Menu_Hitung.this, v);
+                ppMenu.setOnMenuItemClickListener(Menu_Hitung.this);
+
+                ppMenu.inflate(R.menu.menuhitung);
+                ppMenu.show();
+            }
+        });
+
+        segitiga.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 PopupMenu ppMenu = new PopupMenu(Menu_Hitung.this, v);
