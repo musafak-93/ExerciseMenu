@@ -9,7 +9,7 @@
     <string name="menu_hitung">Menu Hitung Bangun Datar</string>
     <string name="persegi">Menghitung Persegi</string>
     <string name="lingkaran">Menghitung Lingkaran</string>
-    <string name="persegi_panjang">Persegi Panjang</string>
+    <string name="persegi_panjang">Menghitung Persegi Panjang</string>
     <string name="segitiga">Menghitung Segitiga</string>
     <string name="Trapesium">Menghitung Trapesium</string>
 </resources>
