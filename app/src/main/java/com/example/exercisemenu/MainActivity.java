@@ -2,7 +2,9 @@ package com.example.exercisemenu;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.Intent;
 import android.os.Bundle;
+import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
 
@@ -19,5 +21,10 @@ public class MainActivity extends AppCompatActivity {
         edname = findViewById(R.id.Et_Username);
         edpass = findViewById(R.id.Et_password);
         bkirim = findViewById(R.id.btnok);
+    }
+
+    public void Pindah(View view) {
+        Intent intent = new Intent(MainActivity.this, Menu_Hitung.class);
+        startActivity(intent);
     }
 }
