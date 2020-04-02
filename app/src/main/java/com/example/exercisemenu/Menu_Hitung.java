@@ -19,8 +19,20 @@ public class Menu_Hitung extends AppCompatActivity implements
         setContentView(R.layout.activity_menu__hitung);
 
         TextView persegi=findViewById(R.id.TV_persegi);
+        TextView lingkaran=findViewById(R.id.TV_lingkaran);
 
         persegi.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                PopupMenu ppMenu = new PopupMenu(Menu_Hitung.this, v);
+                ppMenu.setOnMenuItemClickListener(Menu_Hitung.this);
+
+                ppMenu.inflate(R.menu.menuhitung);
+                ppMenu.show();
+            }
+        });
+
+        lingkaran.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 PopupMenu ppMenu = new PopupMenu(Menu_Hitung.this, v);
