@@ -75,7 +75,7 @@ public class Menu_Hitung extends AppCompatActivity implements
                 PopupMenu ppMenu = new PopupMenu(Menu_Hitung.this, v);
                 ppMenu.setOnMenuItemClickListener(Menu_Hitung.this);
 
-                ppMenu.inflate(R.menu.menuhitung);
+                ppMenu.inflate(R.menu.menu_trapesium);
                 ppMenu.show();
             }
         });
@@ -114,6 +114,14 @@ public class Menu_Hitung extends AppCompatActivity implements
             case R.id.menu8:
                 Intent h = new Intent(Menu_Hitung.this, keliling_segitiga.class);
                 startActivity(h);
+                break;
+            case R.id.menu9:
+                Intent i = new Intent(Menu_Hitung.this, luas_trapesium.class);
+                startActivity(i);
+                break;
+            case R.id.menu10:
+                Intent j = new Intent(Menu_Hitung.this, keliling_trapesium.class);
+                startActivity(j);
                 break;
         }
         return true;
