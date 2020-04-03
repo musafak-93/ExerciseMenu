@@ -72,7 +72,7 @@
                     android:layout_height="wrap_content"
                     android:ems="10"
                     android:hint="@string/masukkan_password"
-                    android:inputType="textVisiblePassword"/>
+                    android:inputType="textPassword"/>
             </TableRow>
         </TableLayout>
 

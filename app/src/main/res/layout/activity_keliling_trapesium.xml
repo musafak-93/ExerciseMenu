@@ -98,6 +98,6 @@
             android:layout_marginRight="10dp"
             android:layout_marginBottom="130sp"
             android:background="@color/btn"
-            android:text="@string/btn_keliling"/>
+            android:text="@string/btn_keliling" />
     </LinearLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>
