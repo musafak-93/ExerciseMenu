@@ -9,7 +9,9 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".keliling_pp"></activity>
+        <activity android:name=".keliling_segitiga"></activity>
+        <activity android:name=".luas_segitiga" />
+        <activity android:name=".keliling_pp" />
         <activity android:name=".luas_pp" />
         <activity android:name=".keliling_lingkaran" />
         <activity android:name=".luas_lingkaran" />
