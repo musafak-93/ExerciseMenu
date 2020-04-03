@@ -6,15 +6,81 @@
     android:layout_height="match_parent"
     tools:context=".luas_segitiga">
 
-    <TextView
-        android:id="@+id/Tv_ls"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Luas Segitiga"
-        android:textSize="30sp"
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toTopOf="parent"/>
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/segitiga"
+            android:layout_marginLeft="80dp"/>
+
+        <TextView
+            android:id="@+id/tv_l"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="50dp"
+            android:textAlignment="center"
+            android:textStyle="bold"
+            android:text="@string/ls"
+            android:textColor="@color/text"
+            android:textSize="35dp"/>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/tv_pnjg"
+                android:layout_width="134dp"
+                android:layout_height="wrap_content"
+                android:text="@string/alas"
+                android:textSize="20sp"
+                android:textColor="@color/text"/>
+            <EditText
+                android:id="@+id/Et_pnjg"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="number"/>
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/tv_lebar"
+                android:layout_width="134dp"
+                android:layout_height="wrap_content"
+                android:text="@string/tinggi"
+                android:textSize="20sp"
+                android:textColor="@color/text"/>
+            <EditText
+                android:id="@+id/Et_lebar"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="number"/>
+        </TableRow>
+
+        <Button
+            android:id="@+id/btnlingkaran"
+            android:layout_width="150dp"
+            android:layout_height="49dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="30sp"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="130sp"
+            android:background="@color/btn"
+            android:text="@string/btn_luas"/>
+    </LinearLayout>
 
 </androidx.constraintlayout.widget.ConstraintLayout>
