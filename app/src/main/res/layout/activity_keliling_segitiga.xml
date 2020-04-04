@@ -97,7 +97,7 @@
             android:orientation="vertical">
 
             <Button
-                android:id="@+id/btn_keliling_lingkaran"
+                android:id="@+id/btn_keliling_segitiga"
                 android:layout_width="150dp"
                 android:layout_height="49dp"
                 android:layout_gravity="center"

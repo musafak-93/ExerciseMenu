@@ -29,7 +29,7 @@ public class MainActivity extends AppCompatActivity {
                 user = edname.getText().toString();
                 pass = edpass.getText().toString();
 
-                if (user.equals("admin") || pass.equals("123") ) {
+                if (user.equals("admin") && pass.equals("123") ) {
                     Intent intent = new Intent(MainActivity.this, Menu_Hitung.class);
                     startActivity(intent);
                 }else {
