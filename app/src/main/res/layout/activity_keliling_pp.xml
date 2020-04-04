@@ -45,7 +45,7 @@
                 android:textSize="20sp"
                 android:textColor="@color/text"/>
             <EditText
-                android:id="@+id/Et_pnjg"
+                android:id="@+id/Et_panjang"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:ems="10"
