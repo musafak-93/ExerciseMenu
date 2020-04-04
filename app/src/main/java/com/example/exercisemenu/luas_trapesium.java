@@ -52,12 +52,12 @@ public class luas_trapesium extends AppCompatActivity {
                     double ab = Double.parseDouble(sisiab);
                     double ef = Double.parseDouble(sisief);
                     double t = Double.parseDouble(tinggi);
-                    double hs = KelilingSegitiga(ab,ef,t);
+                    double hs = LuasTrapesium(ab,ef,t);
                     String output = String.valueOf(hs);
                     hasil.setText(output.toString());
                 }
             }
         });
     }
-    public double KelilingSegitiga(double ab, double ef, double t){return ab+ef*t/2;}
+    public double LuasTrapesium(double ab, double ef, double t){return (ab+ef)*t/2;}
 }
