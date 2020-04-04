@@ -29,7 +29,7 @@
             android:layout_marginTop="50dp"
             android:textAlignment="center"
             android:textStyle="bold"
-            android:text="@string/ll"
+            android:text="@string/kl"
             android:textColor="@color/text"
             android:textSize="35dp"/>
 
@@ -45,7 +45,7 @@
                 android:textSize="20sp"
                 android:textColor="@color/text"/>
             <EditText
-                android:id="@+id/Et_jari"
+                android:id="@+id/Et_keliling_jari"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:ems="10"
