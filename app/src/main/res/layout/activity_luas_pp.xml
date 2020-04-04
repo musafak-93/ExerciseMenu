@@ -45,7 +45,7 @@
                 android:textSize="20sp"
                 android:textColor="@color/text"/>
             <EditText
-                android:id="@+id/Et_pnjg"
+                android:id="@+id/Et_panjang"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:ems="10"
@@ -85,7 +85,7 @@
                 android:layout_gravity="center"
                 android:layout_marginTop="30sp"
                 android:background="@color/btn"
-                android:text="@string/btn_keliling"/>
+                android:text="@string/btn_luas"/>
 
             <TextView
                 android:id="@+id/hsl_luas_persegi_panjang"
