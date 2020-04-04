@@ -45,7 +45,7 @@
                 android:textSize="20sp"
                 android:textColor="@color/text"/>
             <EditText
-                android:id="@+id/Et_alas"
+                android:id="@+id/Et_ab"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:ems="10"
@@ -64,7 +64,7 @@
                 android:textSize="20sp"
                 android:textColor="@color/text"/>
             <EditText
-                android:id="@+id/Et_tinggi"
+                android:id="@+id/Et_ef"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:ems="10"
@@ -83,7 +83,7 @@
                 android:textSize="20sp"
                 android:textColor="@color/text"/>
             <EditText
-                android:id="@+id/Et_sisimiring"
+                android:id="@+id/Et_tinggi"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:ems="10"
